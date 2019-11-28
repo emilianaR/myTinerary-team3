@@ -33,7 +33,6 @@ class Login extends Component {
   }
 
   obtieneLogin(e) {
-//    e.preventDefault()
     let user = {
       email: this.state.user,
       password: this.state.password
