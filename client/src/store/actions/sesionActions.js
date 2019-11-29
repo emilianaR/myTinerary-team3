@@ -48,3 +48,9 @@ export const getAccess = (user) => {
         }
     }
 }
+
+export const GETEXIT = () => {
+    return({
+        type:"SESIONExit_OFF"
+    });
+}

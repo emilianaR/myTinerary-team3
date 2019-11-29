@@ -21,6 +21,12 @@ export default (state = initialState, action) => {
         success: action.success,
         token: ''
       }
+      case "SESIONExit_OFF":
+        return {
+          ...state,
+          success: false,
+          token: ''
+        }
     default:
       return state;
   }
